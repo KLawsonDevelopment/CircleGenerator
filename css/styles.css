@@ -3,3 +3,40 @@ body {
     grid-template-rows: 200px 200px 200px 200px 200px;
     grid-template-columns: 200px 200px 200px 200px 200px;
 }
+
+#reset {
+    grid-row: 5;
+    grid-column: 5;
+    background: black;
+    color: white;
+}
+
+#terrain {
+    grid-row: 3;
+    grid-column: 5;
+}
+
+#type {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+#monsters {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+#level {
+    grid-row: 2;
+    grid-column: 3;
+}
+
+#upgrade {
+    grid-row: 2;
+    grid-column: 4;
+}
+
+#planet {
+    grid-row: 2;
+    grid-column: 5;
+}
