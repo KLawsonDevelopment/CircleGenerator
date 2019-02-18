@@ -13,6 +13,9 @@ body {
     width: 200px;
     height: 200px;
     font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #terrain {
@@ -21,6 +24,9 @@ body {
     width: 50%;
     height: 50%;
     font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #type {
@@ -31,6 +37,9 @@ body {
     font-size: 32px;
     background: rgb(193, 115, 81);
     color:rgb(130, 40, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #monsters {
@@ -40,7 +49,10 @@ body {
     height: 200px;
     font-size: 32px;
     background: rgb(150, 132, 137);
-    color: rgb(96, 44, 38)
+    color: rgb(96, 44, 38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -52,7 +64,10 @@ body {
     font-size: 32px;
     background: rgb(45, 80, 85);
     color: rgb(158, 39, 32);
-    text-shadow: 1px 1px rgb(188, 129, 130)
+    text-shadow: 1px 1px rgb(188, 129, 130);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #upgrade {
@@ -62,7 +77,10 @@ body {
     width: 200px;
     height: 200px;
     background: rgb(16,22,83);
-    color: rgb(242, 235, 230)
+    color: rgb(242, 235, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #planet {
@@ -71,4 +89,7 @@ body {
     font-size: 32px;
     width: 200px;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
