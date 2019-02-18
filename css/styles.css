@@ -1,43 +1,74 @@
 body {
     display: grid;
-    grid-template-rows: 200px 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
     grid-template-columns: 200px 200px 200px 200px 200px;
     justify-items: center;
 }
 
 #reset {
-    grid-row: 5;
+    grid-row: 4;
     grid-column: 5;
     background: black;
     color: white;
+    width: 200px;
+    height: 200px;
+    font-size: 32px;
 }
 
 #terrain {
     grid-row: 3;
     grid-column: 5;
+    width: 50%;
+    height: 50%;
+    font-size: 32px;
 }
 
 #type {
     grid-row: 2;
     grid-column: 1;
+    width: 200px;
+    height: 200px;
+    font-size: 32px;
+    background: rgb(193, 115, 81);
+    color:rgb(130, 40, 19);
 }
 
 #monsters {
     grid-row: 2;
     grid-column: 2;
+    width: 200px;
+    height: 200px;
+    font-size: 32px;
+    background: rgb(150, 132, 137);
+    color: rgb(96, 44, 38)
+    
 }
 
 #level {
     grid-row: 2;
     grid-column: 3;
+    width: 200px;
+    height: 200px;
+    font-size: 32px;
+    background: rgb(45, 80, 85);
+    color: rgb(158, 39, 32);
+    text-shadow: 1px 1px rgb(188, 129, 130)
 }
 
 #upgrade {
     grid-row: 2;
     grid-column: 4;
+    font-size: 32px;
+    width: 200px;
+    height: 200px;
+    background: rgb(16,22,83);
+    color: rgb(242, 235, 230)
 }
 
 #planet {
     grid-row: 2;
     grid-column: 5;
+    font-size: 32px;
+    width: 200px;
+    height: 200px;
 }
