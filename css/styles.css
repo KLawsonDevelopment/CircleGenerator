@@ -3,6 +3,7 @@ body {
     grid-template-rows: 200px 200px 200px 200px;
     grid-template-columns: 200px 200px 200px 200px 200px;
     justify-items: center;
+    background: seashell;
 }
 
 #reset {
@@ -162,6 +163,7 @@ body {
         grid-template-rows: 100px 100px 100px 100px 100px 100px;
         grid-template-columns: 125px 125px 125px;
         justify-items: center;
+        background: seashell;
     }
 
     #reset {
