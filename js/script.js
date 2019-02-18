@@ -1,5 +1,5 @@
 $(document).ready(function (){
-    const typeArray = ['Slayer', 'Recovery', 'Defense', 'Target']
+    const typeArray = ['Slayer', 'Recovery', 'Defense', 'Target', 'Stealth']
     const monstArray= [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
     var monsterTypes=[];
     const zoneLvl=[1,2,3,4,5,6,7,8,9,10];
@@ -14,12 +14,10 @@ $(document).ready(function (){
     function monsterGen() {
         monsterTypes.push(monstArray[Math.floor(Math.random()*monstArray.length)]);
         monsterTypes.push(monstArray[Math.floor(Math.random()*monstArray.length)]);
-        console.log(monsterTypes)
     }
 
     function upgradeCheck(){
         var upgradeCheckNum=upgradeArr[Math.floor(Math.random()*upgradeArr.length)]
-        console.log(upgradeCheckNum)
         if (upgradeCheckNum>=2){
             upgrade=false;
         }
