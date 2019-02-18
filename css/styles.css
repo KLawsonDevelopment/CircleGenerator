@@ -93,3 +93,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+#logo {
+    grid-row: 4;
+    grid-column: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
