@@ -160,7 +160,7 @@ body {
     body {
         display: grid;
         grid-template-rows: 100px 100px 100px 100px 100px 100px;
-        grid-template-columns: 150px 150px 150px;
+        grid-template-columns: 125px 125px 125px;
         justify-items: center;
     }
 
@@ -169,7 +169,7 @@ body {
         grid-column: 2;
         background: black;
         color: white;
-        width: 150px;
+        width: 125px;
         height: 100px;
         font-size: 15px;
         display: flex;
@@ -180,7 +180,7 @@ body {
     #terrain {
         grid-row: 5;
         grid-column: 3;
-        width: 150px;
+        width: 125px;
         height: 100px;
         font-size: 15px;
         display: flex;
@@ -191,7 +191,7 @@ body {
     #type {
         grid-row: 1;
         grid-column: 2;
-        width: 150px;
+        width: 125px;
         height: 100px;
         font-size: 15px;
         background: rgb(193, 115, 81);
@@ -204,7 +204,7 @@ body {
     .type {
         grid-row: 1;
         grid-column: 1;
-        width: 150px;
+        width: 125px;
         height: 100px;
         display: flex;
         justify-content: center;
@@ -215,7 +215,7 @@ body {
     #monsters {
         grid-row: 2;
         grid-column: 2;
-        width: 150px;
+        width: 125px;
         height: 100px;
         font-size: 15px;
         background: rgb(150, 132, 137);
@@ -228,7 +228,7 @@ body {
     .monsters {
         grid-row: 2;
         grid-column: 1;
-        width: 150px;
+        width: 125px;
         height: 100px;
         display: flex;
         justify-content: center;
@@ -239,7 +239,7 @@ body {
     #level {
         grid-row: 3;
         grid-column: 2;
-        width: 150px;
+        width: 125px;
         height: 100px;
         font-size: 15px;
         background: rgb(45, 80, 85);
@@ -253,7 +253,7 @@ body {
     .level {
         grid-row: 3;
         grid-column: 1;
-        width: 150px;
+        width: 125px;
         height: 100px;
         display: flex;
         justify-content: center;
@@ -264,7 +264,7 @@ body {
     #upgrade {
         grid-row: 4;
         grid-column: 2;
-        width: 150px;
+        width: 125px;
         height: 100px;
         background: rgb(16,22,83);
         color: rgb(242, 235, 230);
@@ -277,7 +277,7 @@ body {
     .upgrade {
         grid-row: 4;
         grid-column: 1;
-        width: 150px;
+        width: 125px;
         height: 100px;
         display: flex;
         justify-content: center;
@@ -289,7 +289,7 @@ body {
         grid-row: 5;
         grid-column: 2;
         font-size: 15px;
-        width: 150px;
+        width: 125px;
         height: 100px;
         display: flex;
         justify-content: center;
@@ -299,7 +299,7 @@ body {
     .planet {
         grid-row: 5;
         grid-column: 1;
-        width: 150px;
+        width: 125px;
         height: 100px;
         display: flex;
         justify-content: center;
